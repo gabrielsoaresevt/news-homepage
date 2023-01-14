@@ -7,12 +7,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
 
     <!-- 
         Font-family: "Inter", sans-serif;
         Font-weight: 400, 700 and 800;
     -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
 
     <title>Frontend Mentor | News homepage</title>
 </head>
@@ -44,30 +48,28 @@
                     <source media="(min-width: 320px)" srcset="images/image-web-3-mobile.jpg" alt="Main news image">
                     <img src="https://www.shopvita.com.br/images/image-404.png" alt="Main news image">
                 </picture>
-                <div class="main-news__informations">
-                    <h1 class="main-news__informations__title">
-                        The Bright Future of Web 3.0?
-                    </h1>
-                    <span class="main-news__informations__more">
-                        <p class="main-news__informations__more__paragraph">
-                            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-                            But is it really fulfilling its promise?
-                        </p>
-                        <button class="main-news__informations__more__button">Read more</button>
-                    </span>
-                </div>
+                <h1 class="main-news__informations__title">
+                    The Bright Future of Web 3.0?
+                </h1>
+                <span class="main-news__informations__more">
+                    <p class="main-news__informations__more__paragraph">
+                        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                        But is it really fulfilling its promise?
+                    </p>
+                    <button class="main-news__informations__more__button">Read more</button>
+                </span>
                 <aside class="main-news__aside">
                     <h2 class="main-news__aside__subtitle">New</h2>
                     <div class="main-news__aside__item">
-                        <h3 class="main-news__aside__item__subtitle">Hydrogen VS Electric Cars</h3>
+                        <h3 class="main-news__aside__item__subtitle"><a href="#">Hydrogen VS Electric Cars</a></h3>
                         <p class="main-news__aside__item__paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
                     </div>
                     <div class="main-news__aside__item">
-                        <h3 class="main-news__aside__item__subtitle">The Downsides of AI Artistry</h3>
+                        <h3 class="main-news__aside__item__subtitle"><a href="#">The Downsides of AI Artistry</a></h3>
                         <p class="main-news__aside__item__paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
                     </div>
                     <div class="main-news__aside__item">
-                        <h3 class="main-news__aside__item__subtitle">Is VC Funding Drying Up?</h3>
+                        <h3 class="main-news__aside__item__subtitle"><a href="#">Is VC Funding Drying Up?</a></h3>
                         <p class="main-news__aside__item__paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
                     </div>
                 </aside>
@@ -76,33 +78,33 @@
         <section class="news-cards">
             <div class="container">
                 <div class="news-cards__item">
-                    <picture>
+                    <picture class="news-cards__item__img">
                         <img src="images/image-retro-pcs.jpg" alt="Retro pcs image">
                     </picture>
                     <div class="news-cards__item__info">
                         <span class="news-cards__item__info__number">01</span>
-                        <h3 class="news-cards__item__info__title">Reviving Retro PCs</h3>
+                        <h3 class="news-cards__item__info__title"><a href="#">Reviving Retro PCs</a></h3>
                         <p class="news-cards__item__info__paragraph">What happens when old PCs are given modern upgrades?</p>
                     </div>
                 </div>
                 <div class="news-cards__item">
-                    <picture>
-                        <img src="images/image-gaming-growth.jpg" alt="Gaming growth image">
+                    <picture class="news-cards__item__img">
+                        <img src="images/image-top-laptops.jpg" alt="Laptops image">
                     </picture>
                     <div class="news-cards__item__info">
                         <span class="news-cards__item__info__number">02</span>
-                        <h3 class="news-cards__item__info__title">Top 10 Laptops of 2022</h3>
+                        <h3 class="news-cards__item__info__title"><a href="#">Top 10 Laptops of 2022</a></h3>
                         <p class="news-cards__item__info__paragraph">Our best picks for various needs and budgets.</p>
                     </div>
                 </div>
                 <div class="news-cards__item">
-                    <picture>
-                        <img src="images/image-top-laptops.jpg" alt="Laptops image">
+                    <picture class="news-cards__item__img">
+                        <img src="images/image-gaming-growth.jpg" alt="Gaming growth image">
                     </picture>
                     <div class="news-cards__item__info">
                         <span class="news-cards__item__info__number">03</span>
-                        <h3 class="news-cards__item__info__title">The Growth of Gaming</h3>
-                        <p class="news-cards__item__info__paragraph">How the pandemic has sparked fresh opportunities.</p>
+                        <h3 class="news-cards__item__info__title"><a href="#"></a>The Growth of Gaming</h3>
+                        <p class="news-cards__item__info__paragraph">How the pandemic has sparked fresh opportunities</p>
                     </div>
                 </div>
             </div>
