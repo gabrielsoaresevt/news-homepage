@@ -7,7 +7,8 @@ $color-very-dark-blue: hsl(240, 100%, 5%);
 
 $color-text-title: $color-very-dark-blue;
 
-$color-paragraph: $color-dark-grayish-blue;
+$color-primary-paragraph: $color-dark-grayish-blue;
+$color-secondary-paragraph: $color-grayish-blue;
 $color-text-main-menu-hover: $color-soft-red;
 
 $color-button: $color-soft-red;
@@ -19,3 +20,5 @@ $color-text-subtitle-main-news-hover: $color-soft-orange;
 
 $color-text-title-card-news: $color-very-dark-blue;
 $color-text-title-card-news-hover: $color-soft-red;
+
+$color-background-news-main: $color-very-dark-blue;
