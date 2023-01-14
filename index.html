@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
@@ -16,47 +16,101 @@
     <title>Frontend Mentor | News homepage</title>
 </head>
 <body>
-    
+    <header id="header">
+        <div class="container">
+            <img src="images/logo.svg" alt="News logo">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#">Home</a></li>
+                    <li class="menu__list__item"><a href="#">New</a></li>
+                    <li class="menu__list__item"><a href="#">Popular</a></li>
+                    <li class="menu__list__item"><a href="#">Trending</a></li>
+                    <li class="menu__list__item"><a href="#">Categories</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <section class="main-news">
+            <div class="container">
+                <picture class="main-news__hero-image">
+                    <source media="(min-width: 1280px)" srcset="images/image-web-3-desktop.jpg" alt="Main news image">
+                    <source media="(min-width: 320px)" srcset="images/image-web-3-mobile.jpg" alt="Main news image">
+                    <img src="https://www.shopvita.com.br/images/image-404.png" alt="Main news image">
+                </picture>
+                <div class="main-news__information">
+                    <h1 class="main-news__information__title">
+                        The Bright Future of Web 3.0?
+                    </h1>
+                    <span>
+                        <p class="main-news__information__paragraph paragraph">
+                            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                            But is it really fulfilling its promise?
+                        </p>
+                        <button class="main-news__information__button">Read more</button>
+                    </span>
+                </div>
+                <aside class="main-news__aside">
+                    <h2 class="main-news__aside__subtitle">New</h2>
+                    <div class="main-news__aside__item">
+                        <h3 class="main-news__aside__item__subtitle">Hydrogen VS Electric Cars</h3>
+                        <p class="paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                    </div>
+                    <div class="main-news__aside__item">
+                        <h3 class="main-news__aside__item__subtitle">The Downsides of AI Artistry</h3>
+                        <p class="paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+                    </div>
+                    <div class="main-news__aside__item">
+                        <h3 class="main-news__aside__item__subtitle">Is VC Funding Drying Up?</h3>
+                        <p class="paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section class="news-cards">
+            <div class="container">
+                <div class="news-cards__item">
+                    <picture>
+                        <img src="images/image-retro-pcs.jpg" alt="Retro pcs image">
+                    </picture>
+                    <div class="news-cards__item__info">
+                        <span class="news-cards__item__info__number">01</span>
+                        <h3 class="news-cards__item__info__title">Reviving Retro PCs</h3>
+                        <p class="news-cards__item__info__paragraph paragraph">What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+                <div class="news-cards__item">
+                    <picture>
+                        <img src="images/image-gaming-growth.jpg" alt="Gaming growth image">
+                    </picture>
+                    <div class="news-cards__item__info">
+                        <span class="news-cards__item__info__number">02</span>
+                        <h3 class="news-cards__item__info__title">Top 10 Laptops of 2022</h3>
+                        <p class="news-cards__item__info__paragraph paragraph">Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+                <div class="news-cards__item">
+                    <picture>
+                        <img src="images/image-top-laptops.jpg" alt="Laptops image">
+                    </picture>
+                    <div class="news-cards__item__info">
+                        <span class="news-cards__item__info__number">03</span>
+                        <h3 class="news-cards__item__info__title">The Growth of Gaming</h3>
+                        <p class="news-cards__item__info__paragraph paragraph">How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    Home
-    New
-    Popular
-    Trending
-    Categories
+    <!-- 
 
-    The Bright Future of Web 3.0?
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Your Name Here</a>.
+        </div>
 
-    We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-    But is it really fulfilling its promise?
+     -->
 
-    Read more
-
-    New 
-
-    Hydrogen VS Electric Cars
-    Will hydrogen-fueled cars ever catch up to EVs?
-
-    The Downsides of AI Artistry
-    What are the possible adverse effects of on-demand AI image generation?
-
-    Is VC Funding Drying Up?
-    Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-    01
-    Reviving Retro PCs
-    What happens when old PCs are given modern upgrades?
-
-    02
-    Top 10 Laptops of 2022
-    Our best picks for various needs and budgets.
-
-    03
-    The Growth of Gaming
-    How the pandemic has sparked fresh opportunities.
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
-    </div>
 </body>
 </html>
