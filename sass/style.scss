@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+}
+
+@import "./abstracts/colors";
+@import "./abstracts/texts";
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6.0rem 0 4.8rem 0;
+    }
+    &__logo {
+        width: 64px;
+    }
+    &__menu {
+        &__list {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-wrap: nowrap;
+            gap: 40px;
+            &__item {
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: $color-paragraph;
+                    transition: color 0.175s;
+                    &:hover {
+                        color: $color-text-main-menu-hover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+img {
+    max-width: 100%;
+}
