@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <script defer="defer" src="./js/script.js"></script>
 
     <!-- 
         Font-family: "Inter", sans-serif;
@@ -24,11 +25,14 @@
 <body>
     <header class="header">
         <div class="container">
-            <a href="#">
+            <a id="home" href="#">
                 <img class="header__logo" src="images/logo.svg" alt="News logo">
             </a>
             <nav class="header__menu">
                 <ul class="header__menu__list">
+                    <div class="header__menu__list__icon-close mobile-menu">
+                        <img id="icon-menu-close" src="images/icon-menu-close.svg" alt="Menu close icon">
+                    </div>
                     <li class="header__menu__list__item"><a href="#">Home</a></li>
                     <li class="header__menu__list__item"><a href="#">New</a></li>
                     <li class="header__menu__list__item"><a href="#">Popular</a></li>
@@ -36,9 +40,9 @@
                     <li class="header__menu__list__item"><a href="#">Categories</a></li>
                 </ul>   
             </nav>
-            <!-- <div class="header-mobile-menu">
-                <img src="images/icon-menu.svg" alt="Menu icon">
-            </div> -->
+            <div class="header__icon-menu mobile-menu">
+                <img id="icon-menu" src="images/icon-menu.svg" alt="Menu icon">
+            </div>
         </div>
     </header>
     <main id="main-content">
@@ -104,7 +108,7 @@
                     </picture>
                     <div class="news-cards__item__info">
                         <span class="news-cards__item__info__number">03</span>
-                        <h3 class="news-cards__item__info__title"><a href="#"></a>The Growth of Gaming</h3>
+                        <h3 class="news-cards__item__info__title"><a href="#">The Growth of Gaming</a></h3>
                         <p class="news-cards__item__info__paragraph">How the pandemic has sparked fresh opportunities</p>
                     </div>
                 </div>
