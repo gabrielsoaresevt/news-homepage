@@ -23,7 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+
+![screenshot-desktop](https://user-images.githubusercontent.com/64991217/213009196-3777787e-aa6e-43da-b29e-cf307957aeff.png)
 
 ### Links
 
