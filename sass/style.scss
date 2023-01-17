@@ -4,6 +4,7 @@
 @import "./layout/_container";
 @import "./layout/_main-content";
 @import "./pages/_news-homepage-main";
+@import "./vendors/_normalize";
 
 // node-sass -w --output-style compressed sass/style.scss css/style.css
 
