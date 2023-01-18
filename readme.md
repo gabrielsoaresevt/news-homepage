@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Website News Homepage Main](https://gabrielsoaresevt.github.io/news-homepage-main/)
+- Solution URL: [Website News Homepage](https://gabrielsoaresevt.github.io/news-homepage)
 
 ## My process
 
