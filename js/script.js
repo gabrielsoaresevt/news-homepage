@@ -1,4 +1,11 @@
 window.onload = function() {
+
+    const load = document.querySelector(".load");
+    const pageContent = document.querySelector(".page-content");
+
+    pageContent.style.overflowY = "visible";
+    load.classList.add("hidden");
+
     class MobileNavBar {
         constructor(mobileMenu, navMenu, navList) {
             this.mobileMenu = document.querySelectorAll(mobileMenu);

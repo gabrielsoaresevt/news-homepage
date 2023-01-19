@@ -1,10 +1,19 @@
 $color-soft-orange: hsl(35, 77%, 62%);
 $color-soft-red: hsl(5, 85%, 63%);
-$color-off-white: hsl(36, 100%, 99%); 
+$color-off-white: hwb(36 98% 0%); 
+$color-off-white-transparent: rgba(255, 253, 250, 0.4);
 $color-grayish-blue: hsl(233, 8%, 79%);
 $color-dark-grayish-blue: hsl(236, 13%, 42%);
 $color-very-dark-blue: hsl(240, 100%, 5%);
 $color-very-dark-blue-transparent:  rgba(0, 0, 26, 0.5);
+$color-off-white-transparent: hsl(36, 100%, 99%);
+
+$color-background-load: $color-off-white-transparent;
+$color-text-loading: $color-off-white;
+
+$color-load-ring-one: $color-soft-orange;
+$color-load-ring-two: $color-very-dark-blue;
+$color-load-ring-three: $color-soft-red;
 
 $color-text-title: $color-very-dark-blue;
 $color-overlay-menu: $color-very-dark-blue-transparent;
