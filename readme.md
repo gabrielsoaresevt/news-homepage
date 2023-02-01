@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Website News Homepage](https://gabrielsoaresevt.github.io/news-homepage)
+- Solution URL: [News Homepage](https://gabrielsoaresevt.github.io/news-homepage)
 
 ## My process
 
@@ -41,6 +41,5 @@ Users should be able to:
 
 ## Author
 
-<!-- - Website - [Add your name here](https://www.your-site.com) -->
 - Frontend Mentor - [@gabrielsoaresevt](https://www.frontendmentor.io/profile/gabrielsoaresevt)
 - LinkedIn - [@gabrielsoaresevangelista](https://www.linkedin.com/in/gabriel-soares-a971391b1/)
